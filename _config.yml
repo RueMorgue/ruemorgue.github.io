@@ -167,7 +167,7 @@ portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex
 # Portfolio Grid
 #
 portfolio-categories:
-  [Band, Live, Studio, Rehearsals, Video Sessions]
+  [Band, Live, Rehearsals, Video Sessions]
 portfolio:
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
@@ -279,47 +279,6 @@ portfolio:
   - title: S<span class="thin">era</span> Style
     categories: [Live]
     image: Live_10.jpg
-    url: "#"
-
-  - title: S<span class="thin">era</span> Style
-    categories: [Studio]
-    image: Studio_1.jpg
-    url: "#"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Studio]
-    image: Studio_2.jpg
-    url: "#"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Studio]
-    image: Studio_3.jpg
-    url: "#"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Studio]
-    image: Studio_4.jpg
-    url: "#"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Studio]
-    image: Studio_5.jpg
-    url: "#"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Studio]
-    image: Studio_6.jpg
-    url: "#"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Studio]
-    image: Studio_7.jpg
     url: "#"
 
   - title: S<span class="thin">era</span> Style
@@ -450,8 +409,8 @@ blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. 
 #####################################
 ############### Team ################
 #####################################
-team-title: Meet Our Team
-team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+team-title: Meet The Band
+team-description: You can contact us also personally.
 
 #
 # Team Members
@@ -460,7 +419,7 @@ team:
   # Team Member
   - name: Casper van Beugen
     tagline: Bass
-    avatar: avatar-01.jpg
+    avatar: Studio_6.jpg
 
     # Social Links
     youtube: "#"
@@ -473,7 +432,7 @@ team:
   # Team Member
   - name: Marrick Verhoeven
     tagline: Drums
-    avatar: avatar-02.jpg
+    avatar: Studio_4.jpg
 
     # Social Links
     youtube: "#"
@@ -486,7 +445,7 @@ team:
   # Team Member
   - name: Ian Maxwell
     tagline: Vocals
-    avatar: avatar-04.jpg
+    avatar: Studio_2.jpg
 
     # Social Links
     youtube: "#"
@@ -499,7 +458,7 @@ team:
   # Team Member
   - name: Marcus 
     tagline: Guitars
-    avatar: avatar-03.jpg
+    avatar: Studio_3.jpg
 
     # Social Links
     youtube: "#"
@@ -512,7 +471,7 @@ team:
 # Team Member
   - name: Stephan Jacobs 
     tagline: Keyboards
-    avatar: avatar-03.jpg
+    avatar: Studio_7.jpg
 
     # Social Links
     youtube: "#"
