@@ -94,10 +94,10 @@ vimeo: "#"
 # About Blog Author Widget
 #
 about-widget:
-  author-avatar: avatar-02.jpg
-  author-name: John Doe
+  author-avatar: Studio_7.jpg
+  author-name: Stephan
   author-tagline: Blog Author
-  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies.
+  author-info: Writes as web desginer current band information.
   author-social-links:
     youtube: "#"
     pinterest: "#"
@@ -315,54 +315,54 @@ core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet 
 #
 core-features-left:
   # Feature
-  - name: Creative
+  - name: International
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-    icon: pe-7s-light
+    icon: pe-7s-world
 
   # Feature
-  - name: Minimalism
+  - name: Flower Power
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-    icon: pe-7s-drop
+    icon: pe-7s-leaf
 
   # Feature
-  - name: Clean Coding
+  - name: Recordings
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-    icon: pe-7s-coffee
+    icon: pe-7s-album
 
   # Feature
-  - name: Friendly
+  - name: Rock and Roll
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-    icon: pe-7s-smile
+    icon: pe-7s-rocket
 
 #
 # Core Features Right
 #
 core-features-right:
   # Feature
-  - name: Branding
+  - name: Fun
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-    icon: pe-7s-wine
+    icon: pe-7s-smile
 
   # Feature
-  - name: Web Design
+  - name: Live Event
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-    icon: pe-7s-monitor
+    icon: pe-7s-speaker
 
   # Feature
-  - name: Graphic Design
+  - name: Magic
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-    icon: pe-7s-crop
+    icon: pe-7s-magic-wand
 
   # Feature
-  - name: Photography
+  - name: Plug it in 
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-    icon: pe-7s-camera
+    icon: pe-7s-plug
 
 #####################################
 ########### Testimonials ############
 #####################################
 testimonials-title: Testimonials
-testimonials-description: Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi.
+testimonials-description: Here you find some reviews of our first LP.
 
 #
 # Testimonials
@@ -370,41 +370,34 @@ testimonials-description: Aenean at tincidunt sem. Interdum et malesuada fames a
 testimonials:
   # Client
   - name: UNDERDOG Fanzine
-    url: http://themeforest.net
-    url-text: ThemeForest.net
+    url: https://www.underdog-fanzine.de/2018/05/30/the-autumn-almanacs-all-work-and-no-play-makes-jack-a-dull-boy
+    url-text: Review
     avatar: avatar-01.jpg
     cite: Time to dream peaceful, relax and celebrate your knowledge!
-    logo-img: themeforest.png
+    logo-img: underdog_logo.jpg
 
   # Client
-  - name: Adam Smith
-    url: http://codecanyon.net
-    url-text: CodeCanyon.net
+  - name: Rocktimes
+    url: https://www.rocktimes.info/the-autumn-almanacs-all-work-and-no-play-makes-jack-a-dull-boy-cd-review
+    url-text: Review
     avatar: avatar-02.jpg
-    cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-    logo-img: codecanyon.png
+    cite: Remnants of the beat era mixed with psychedelic, flower power hippie atmosphere, sunshine pop and the first echoes of rock music and, thanks to the wind instruments, a touch of rhythm & blues.
+    logo-img: rocktimes_logo.jfif
 
   # Client
-  - name: Irene Warner
-    url: http://videohive.net
-    url-text: VideoHive.net
+  - name: Powermetal.de
+    url: https://powermetal.de/review/review-Autumn_Almanacs__The/All_Work_And_No_Play_Makes_Jack_A_Dull_Boy,34935.html
+    url-text: Review
     avatar: avatar-03.jpg
-    cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-    logo-img: videohive.png
+    cite: If a band can unite friends of many classic genres without sounding artificial or implausible, that means something - and the Cologne-based members managed to do that on "All Work And No Play Makes Jack A Dull Boy".
+    logo-img: powermetal_logo.png
 
-  # Client
-  - name: Richard Ryan
-    url: http://audiojungle.net
-    url-text: AudioJungle.net
-    avatar: avatar-04.jpg
-    cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-    logo-img: audiojungle.png
 
 #####################################
 ############# Our Blog ##############
 #####################################
 blog-title: Our Blog
-blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+blog-description: Get the current news from us.
 
 #####################################
 ############### Team ################
