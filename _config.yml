@@ -164,31 +164,14 @@ features:
 ############  Portfolio  ############
 #####################################
 portfolio-title: Gallery
-portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis.
+portfolio-description: We try to update the gallery section as soon we are getting new pics.
 
 #
 # Portfolio Grid
 #
 portfolio-categories:
-  [Band, Live, Rehearsals, Video Sessions]
+  [Band, Live]
 portfolio:
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Band]
-    image: img-01.jpg
-    url: "#"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Band]
-    image: img-02.jpg
-    url: "#"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Band]
-    image: img-03.jpg
-    url: "#"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
@@ -284,34 +267,11 @@ portfolio:
     image: Live_10.jpg
     url: "#"
 
-  - title: S<span class="thin">era</span> Style
-    categories: [Video Sessions]
-    image: FotoSession_1.jpg
-    url: "#"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Video Sessions]
-    image: FotoSession_2.jpg
-    url: "#"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Video Sessions]
-    image: FotoSession_3.jpg
-    url: "#"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Video Sessions]
-    image: FotoSession_4.jpg
-    url: "#"
-
 #####################################
 ##########  Core Features  ##########
 #####################################
 core-title: Core Features
-core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
+core-description: We create something unique with the following mix
 
 #
 # Core Features Left
@@ -319,22 +279,22 @@ core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet 
 core-features-left:
   # Feature
   - name: International
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+    description: Northern Ireland meets Netherlands meets Germany
     icon: pe-7s-world
 
   # Feature
   - name: Flower Power
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+    description: psychedelic, flower power hippie atmosphere
     icon: pe-7s-leaf
 
   # Feature
   - name: Recordings
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+    description: Optimized recordings with guest musisions
     icon: pe-7s-album
 
   # Feature
   - name: Rock and Roll
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+    description: Classic Rock and Roll with Pink Floyd vibes
     icon: pe-7s-rocket
 
 #
@@ -343,22 +303,22 @@ core-features-left:
 core-features-right:
   # Feature
   - name: Fun
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+    description: celebrating the musical fun with our souls
     icon: pe-7s-smile
 
   # Feature
   - name: Live Event
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+    description: unforgettable live performance with many suprises
     icon: pe-7s-speaker
 
   # Feature
   - name: Magic
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+    description: trying to create something magic
     icon: pe-7s-magic-wand
 
   # Feature
   - name: Plug it in 
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+    description: plug it in and enjoy it
     icon: pe-7s-plug
 
 #####################################
@@ -452,7 +412,7 @@ team:
     vimeo: "#"
 
   # Team Member
-  - name: Marcus 
+  - name: Marcus Brandt
     tagline: Guitars
     avatar: Studio_3.jpg
 
@@ -480,8 +440,8 @@ team:
 #####################################
 ########## Pricing Tables ###########
 #####################################
-pricing-title: Pricing Tables
-pricing-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+pricing-title: Pricing Table
+pricing-description: Buy our 2 LPs or download the songs
 
 #
 # Plan Personal
@@ -517,12 +477,12 @@ plan-ultimate-url: "#"
 ############   Contact   ############
 #####################################
 contact-title: Contact Us
-contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+contact-description: If you want to contact us for a gig or for questions or anything else use the following fields or contact us directly via social media
 
 #####################################
 #############   Footer   ############
 #####################################
 footer-description: Copyright 2021 The Autumn Almanacs. Designed by Stephan Jacobs. All right reserved
 footer-copyright-text: Stephan Jacobs
-footer-copyright-url: https://github.com/ohkimur
+footer-copyright-url: https://ruemorgue.github.io/
 footer-copyright-year: 2021
