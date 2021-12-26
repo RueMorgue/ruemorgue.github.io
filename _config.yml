@@ -70,7 +70,10 @@ header-secondary-button:
 # IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
 # To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
 #
-email: your_email@example.com
+email: stephan_jacobs@gmx.de
+
+collections: 
+  - products
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
@@ -114,8 +117,8 @@ map-lng: 26.102538399999958
 # Enter your Mailchimp User ID and Campaign ID
 # @TODO: Add in a link for where to find these
 mailchimp:
-  user-id: REPLACEME
-  list-id: REPLACEME
+  user-id: RueMorgue666
+  list-id: 15684726
 
 ####
 #
@@ -160,7 +163,7 @@ features:
 #####################################
 ############  Portfolio  ############
 #####################################
-portfolio-title: Portfolio
+portfolio-title: Gallery
 portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis.
 
 #
@@ -361,7 +364,7 @@ core-features-right:
 #####################################
 ########### Testimonials ############
 #####################################
-testimonials-title: Testimonials
+testimonials-title: Reviews
 testimonials-description: Here you find some reviews of our first LP.
 
 #
