@@ -82,19 +82,91 @@
 	height: 100%;
 	z-index: -999999;
 
-  img {
-  	position: absolute;
-  	display: block;
-    width: auto;
-  	min-width: 100%;
-  	min-height: 120%;
-    max-width: inherit;
-    max-height: 140%;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-  }
+  @media (max-width: 991px) {
+    img {
+      position: absolute;
+      display: none;
+      width: auto;
+      min-width: 100%;
+      min-height: 120%;
+      max-width: inherit;
+      max-height: 140%;
+      top: 50%;
+      left: 25%;
+      transform: translate(-25%, -50%);
+      
+    }
 
+    #img2{
+      position: absolute;
+      display: block;
+      width: auto;
+      min-width: 100%;
+      min-height: 120%;
+      max-width: inherit;
+      max-height: 140%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+    }
+
+   }
+   @media (min-width: 992px) and (max-width: 1199px) {
+    img {
+      position: absolute;
+      display: block;
+      width: auto;
+      min-width: 100%;
+      min-height: 120%;
+      max-width: inherit;
+      max-height: 140%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #img2{
+      position: absolute;
+      display: none;
+      width: auto;
+      min-width: 100%;
+      min-height: 120%;
+      max-width: inherit;
+      max-height: 140%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+    }
+
+   }
+   @media (min-width: 1200px) {
+    img {
+      position: absolute;
+      display: block;
+      width: auto;
+      min-width: 100%;
+      min-height: 120%;
+      max-width: inherit;
+      max-height: 140%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #img2{
+      position: absolute;
+      display: none;
+      width: auto;
+      min-width: 100%;
+      min-height: 120%;
+      max-width: inherit;
+      max-height: 140%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+    }
+   }
   .content {
   	position: absolute;
   	display: block;
