@@ -83,7 +83,7 @@
 	z-index: -999999;
 
   @media (max-width: 991px) {
-    img {
+    #img1 {
       position: absolute;
       display: none;
       width: auto;
@@ -110,10 +110,21 @@
       transform: translate(-50%, -50%);
       
     }
-
+    img {
+      position: absolute;
+      display: block;
+      width: auto;
+      min-width: 100%;
+      min-height: 120%;
+      max-width: inherit;
+      max-height: 140%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
    }
    @media (min-width: 992px) and (max-width: 1199px) {
-    img {
+    #img1 {
       position: absolute;
       display: block;
       width: auto;
@@ -138,10 +149,21 @@
       transform: translate(-50%, -50%);
       
     }
-
+    img {
+      position: absolute;
+      display: block;
+      width: auto;
+      min-width: 100%;
+      min-height: 120%;
+      max-width: inherit;
+      max-height: 140%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
    }
    @media (min-width: 1200px) {
-    img {
+    #img1 {
       position: absolute;
       display: block;
       width: auto;
@@ -165,8 +187,22 @@
       left: 50%;
       transform: translate(-50%, -50%);
       
+    }   
+    img {
+      position: absolute;
+      display: block;
+      width: auto;
+      min-width: 100%;
+      min-height: 120%;
+      max-width: inherit;
+      max-height: 140%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
    }
+
+
   .content {
   	position: absolute;
   	display: block;
