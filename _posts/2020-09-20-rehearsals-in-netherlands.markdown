@@ -3,7 +3,7 @@ layout: post
 title: "Rehearsals in Netherlands"
 tagline: Single Page
 date: 2020-09-20
-categories: [Storyline]
+categories: [Rehearsal]
 tags: [Rehearsal, Netherlands]
 image: 20200920_01.jpg
 ---

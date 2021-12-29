@@ -28,9 +28,9 @@ title: Read Our <strong>Blog</strong>
             <div class="date-wrap child-center">
               <div class="day">{{ post.date | date: "%d" }}</div>
               <div class="month">{{ post.date | date: "%b" }}</div>
+              <div class="year">{{ post.date | date: "%Y" }}</div>
             </div>
           </div>
-          <div class="time">{{ post.date | date: "%H:%M" }}</div>
         </div>
         <div class="article-text">
           {{ post.content | truncatewords:75 }}

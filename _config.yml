@@ -178,94 +178,111 @@ portfolio:
     categories: [Band]
     image: img-04.jpg
     url: "#"
+    text: "Bandshooting 2020"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
     categories: [Band]
     image: img-05.jpg
     url: "#"
+    text: "Bandshooting 2020"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
     categories: [Band]
     image: img-06.jpg
     url: "#"
+    text: "Bandshooting 2020"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
     categories: [Band]
     image: img-07.jpg
     url: "#"
+    text: "Bandshooting 2020"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
     categories: [Band]
     image: img-08.jpg
     url: "#"
+    text: "Bandshooting 2020"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
     categories: [Band]
     image: img-09.jpg
     url: "#"
+    text: "Bandshooting 2020"
+
   - title: S<span class="thin">era</span> Style
     categories: [Live]
     image: Live_01.jpg
     url: "#"
+    text: "Live 2019"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
     categories: [Live]
     image: Live_02.jpg
     url: "#"
+    text: "Live 2019"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
     categories: [Live]
     image: Live_03.jpg
     url: "#"
+    text: "Live 2019"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
     categories: [Live]
     image: Live_04.jpg
     url: "#"
+    text: "Live 2019"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
     categories: [Live]
     image: Live_05.jpg
     url: "#"
+    text: "Live 2019"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
     categories: [Live]
     image: Live_06.jpg
     url: "#"
+    text: "Live 2019"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
     categories: [Live]
     image: Live_07.jpg
     url: "#"
+    text: "Live 2019"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
     categories: [Live]
     image: Live_08.jpg
     url: "#"
+    text: "Live 2019"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
     categories: [Live]
     image: Live_09.jpg
     url: "#"
+    text: "Live 2019"
 
 # Portfolio Item
   - title: S<span class="thin">era</span> Style
     categories: [Live]
     image: Live_10.jpg
     url: "#"
+    text: "Live 2019"
 
 #####################################
 ##########  Core Features  ##########
