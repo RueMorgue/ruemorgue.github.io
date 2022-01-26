@@ -1,6 +1,6 @@
 ---
 identifier: AsFarAsTheEyeCanSee
-name: As far as the eye can see (LP)
+name: As Far As The Eye Can See (LP)
 price: 11.95
 image: /images/portfolio/A.jpg
 slug: AsFarAsTheEyeCanSee

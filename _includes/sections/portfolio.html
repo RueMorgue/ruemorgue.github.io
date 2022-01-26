@@ -44,8 +44,6 @@
           <img src="{{ site.baseurl }}/images/portfolio/{{ item.image }}" alt="Portfolio Item Image" />
         </figure>
         <div class="item-content">
-          <h3>{{ item.categories | first }}</h3>
-          <h4>{{ item.text }}</h4>
           <div class="links">
             <ul>
               <li><a href="{{ site.baseurl }}/images/portfolio/{{ item.image }}" class="item-expand"><i class="pe-7s-exapnd2"></i></a></li>
@@ -56,9 +54,8 @@
 
       {% endfor %}
 
-      <!-- Overlay Lightbox -->
-      <div id="overlay" class="overlay"></div>
-
+      <!-- Overlay Lightbox 
+      <div id="overlay" class="overlay"></div>-->
     </div>
 
   </div>

@@ -170,119 +170,43 @@ portfolio-description: We try to update the gallery section as soon we are getti
 # Portfolio Grid
 #
 portfolio-categories:
-  [Band, Live]
 portfolio:
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
-    categories: [Band]
+    categories: []
     image: img-04.jpg
     url: "#"
     text: "Bandshooting 2020"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
-    categories: [Band]
+    categories: []
     image: img-05.jpg
     url: "#"
     text: "Bandshooting 2020"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
-    categories: [Band]
+    categories: []
     image: img-06.jpg
     url: "#"
     text: "Bandshooting 2020"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
-    categories: [Band]
+    categories: []
     image: img-07.jpg
     url: "#"
     text: "Bandshooting 2020"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
-    categories: [Band]
+    categories: []
     image: img-08.jpg
     url: "#"
     text: "Bandshooting 2020"
 
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Band]
-    image: img-09.jpg
-    url: "#"
-    text: "Bandshooting 2020"
-
-  - title: S<span class="thin">era</span> Style
-    categories: [Live]
-    image: Live_01.jpg
-    url: "#"
-    text: "Live 2019"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Live]
-    image: Live_02.jpg
-    url: "#"
-    text: "Live 2019"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Live]
-    image: Live_03.jpg
-    url: "#"
-    text: "Live 2019"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Live]
-    image: Live_04.jpg
-    url: "#"
-    text: "Live 2019"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Live]
-    image: Live_05.jpg
-    url: "#"
-    text: "Live 2019"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Live]
-    image: Live_06.jpg
-    url: "#"
-    text: "Live 2019"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Live]
-    image: Live_07.jpg
-    url: "#"
-    text: "Live 2019"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Live]
-    image: Live_08.jpg
-    url: "#"
-    text: "Live 2019"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Live]
-    image: Live_09.jpg
-    url: "#"
-    text: "Live 2019"
-
-# Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Live]
-    image: Live_10.jpg
-    url: "#"
-    text: "Live 2019"
 
 #####################################
 ##########  Core Features  ##########
@@ -306,13 +230,8 @@ core-features-left:
 
   # Feature
   - name: Recordings
-    description: Optimized recordings with guest musisions
+    description: Optimized recordings with guest musicians
     icon: pe-7s-album
-
-  # Feature
-  - name: Rock and Roll
-    description: Classic Rock and Roll with Pink Floyd vibes
-    icon: pe-7s-rocket
 
 #
 # Core Features Right

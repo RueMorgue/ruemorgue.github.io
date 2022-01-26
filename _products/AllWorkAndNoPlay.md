@@ -1,6 +1,6 @@
 ---
 identifier: AllWorkNoPlay
-name: All Work and no play (LP)
+name: All Work And No Play (LP)
 price: 9.95
 image: /images/AllWorkAndNoPlayMakesJackADullBoy.jpg
 slug: AllWorkNoPlay
