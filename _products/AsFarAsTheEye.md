@@ -1,9 +1,9 @@
 ---
 identifier: AsFarAsTheEyeCanSee
 name: As Far As The Eye Can See (LP)
-price: 11.95
+price: 20.95
 image: /images/portfolio/A.jpg
-slug: AsFarAsTheEyeCanSee
+slug: AsFarAsTheEyeCanSeeAllWorkNoPlay
 sku: ART2
 id: ART2
 ---

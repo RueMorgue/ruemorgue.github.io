@@ -22,26 +22,26 @@ input, textarea, button {
   font-family: $font-family;
   padding: 15px;
   outline: 0;
-  color: $global-text;
-  border: 1px solid $simple-gray;
+  color: $black;
+  border: 1px solid $black;
   background: transparentize($white, 0.9);
   transition: all $transition-links $transition-links-type;
 
   // Placeholders
   &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: $simple-gray;
+    color: $black;
     transition: color $transition-links $transition-links-type;
   }
   &::-moz-placeholder { /* Firefox 19+ */
-    color: $simple-gray;
+    color: $black;
     transition: color $transition-links $transition-links-type;
   }
   &:-ms-input-placeholder { /* IE 10+ */
-    color: $simple-gray;
+    color: $black;
     transition: color $transition-links $transition-links-type;
   }
   &:-moz-placeholder { /* Firefox 18- */
-    color: $simple-gray;
+    color: $black;
     transition: color $transition-links $transition-links-type;
   }
 

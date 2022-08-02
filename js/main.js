@@ -204,3 +204,148 @@
 
 }(window.jQuery, window, document));
 // The global jQuery object is passed as a parameter
+
+/*
+	When the bandcamp link is pressed, stop all propagation so AmplitudeJS doesn't
+	play the song.
+*/
+let bandcampLinks = document.getElementsByClassName('bandcamp-link');
+
+for( var i = 0; i < bandcampLinks.length; i++ ){
+	bandcampLinks[i].addEventListener('click', function(e){
+		e.stopPropagation();
+	});
+}
+
+
+let songElements = document.getElementsByClassName('song');
+
+for( var i = 0; i < songElements.length; i++ ){
+	/*
+		Ensure that on mouseover, CSS styles don't get messed up for active songs.
+	*/
+	songElements[i].addEventListener('mouseover', function(){
+		this.style.backgroundColor = '#00A0FF';
+
+		this.querySelectorAll('.song-meta-data .song-title')[0].style.color = '#FFFFFF';
+		this.querySelectorAll('.song-meta-data .song-artist')[0].style.color = '#FFFFFF';
+
+		if( !this.classList.contains('amplitude-active-song-container') ){
+			this.querySelectorAll('.play-button-container')[0].style.display = 'block';
+		}
+
+		this.querySelectorAll('img.bandcamp-grey')[0].style.display = 'none';
+		this.querySelectorAll('img.bandcamp-white')[0].style.display = 'block';
+		this.querySelectorAll('.song-duration')[0].style.color = '#FFFFFF';
+	});
+
+	/*
+		Ensure that on mouseout, CSS styles don't get messed up for active songs.
+	*/
+	songElements[i].addEventListener('mouseout', function(){
+		this.style.backgroundColor = '#FFFFFF';
+		this.querySelectorAll('.song-meta-data .song-title')[0].style.color = '#272726';
+		this.querySelectorAll('.song-meta-data .song-artist')[0].style.color = '#607D8B';
+		this.querySelectorAll('.play-button-container')[0].style.display = 'none';
+		this.querySelectorAll('img.bandcamp-grey')[0].style.display = 'block';
+		this.querySelectorAll('img.bandcamp-white')[0].style.display = 'none';
+		this.querySelectorAll('.song-duration')[0].style.color = '#607D8B';
+	});
+
+	/*
+		Show and hide the play button container on the song when the song is clicked.
+	*/
+	songElements[i].addEventListener('click', function(){
+		this.querySelectorAll('.play-button-container')[0].style.display = 'none';
+	});
+}
+
+/*
+	Initializes AmplitudeJS
+*/
+Amplitude.init({
+	continue_next: false,
+	callbacks: {
+		song_change: function(){
+		}
+	},
+	"songs": [
+		{
+			"name": "01 Summer Of Love",
+			"artist": "The Autumn Almanacs",
+			"album": "As far as the eye can see",
+			"url": "../audio/Summer Of Love.mp3",
+			"cover_art_url": "../images/portfolio/A.jpg"
+		},
+		{
+			"name": "02 Deep End",
+			"artist": "The Autumn Almanacs",
+			"album": "As far as the eye can see",
+			"url": "../audio/Deep End.mp3",
+			"cover_art_url": "../images/portfolio/A.jpg"
+		},
+		{
+			"name": "03 Horror Movie",
+			"artist": "The Autumn Almanacs",
+			"album": "As far as the eye can see",
+			"url": "../audio/Horror Movie.mp3",
+			"cover_art_url": "../images/portfolio/A.jpg"
+		},
+		{
+			"name": "04 The Market",
+			"artist": "The Autumn Almanacs",
+			"album": "As far as the eye can see",
+			"url": "../audio/The Market.mp3",
+			"cover_art_url": "../images/portfolio/A.jpg"
+		},
+		{
+			"name": "05 The Zodiac",
+			"artist": "The Autumn Almanacs",
+			"album": "As far as the eye can see",
+			"url": "../audio/The Zodiac.mp3",
+			"cover_art_url": "../images/portfolio/A.jpg"
+		},
+		{
+			"name": "06 The Fall",
+			"artist": "The Autumn Almanacs",
+			"album": "As far as the eye can see",
+			"url": "../audio/The Fall.mp3",
+			"cover_art_url": "../images/portfolio/A.jpg"
+		},
+		{
+			"name": "07 Alice Should Go",
+			"artist": "The Autumn Almanacs",
+			"album": "As far as the eye can see",
+			"url": "../audio/Alice Should Go.mp3",
+			"cover_art_url": "../images/portfolio/A.jpg"
+		},
+		{
+			"name": "08 Flowers In Our Hair",
+			"artist": "The Autumn Almanacs",
+			"album": "As far as the eye can see",
+			"url": "../audio/Flowers In Your Hair -mp3-new.mp3",
+			"cover_art_url": "../images/portfolio/A.jpg"
+		},
+		{
+			"name": "09 Belfast Boy",
+			"artist": "The Autumn Almanacs",
+			"album": "As far as the eye can see",
+			"url": "../audio/Belfast Boy.mp3",
+			"cover_art_url": "../images/portfolio/A.jpg"
+		},
+		{
+			"name": "10 Harry Bay",
+      "artist": "The Autumn Almanacs",
+			"album": "As far as the eye can see",
+			"url": "../audio/Harry Bay.mp3",
+			"cover_art_url": "../images/portfolio/A.jpg"
+		},
+		{
+			"name": "11 Apocalypse",
+			"artist": "The Autumn Almanacs",
+			"album": "As far as the eye can see",
+			"url": "../audio/Apocalypse.mp3",
+			"cover_art_url": "../images/portfolio/A.jpg"
+		},
+	]
+});

@@ -82,12 +82,13 @@ banner-link: https://themeforest.net/collections/6069390-sera
 ####################################
 ######  Global Social Links   ######
 ####################################
-youtube: "#"
+youtube: "https://www.youtube.com/channel/UCskLJPKM6gXXK6xtWi5fqtA"
 pinterest: "#"
-facebook: "#"
+facebook: "https://de-de.facebook.com/theautumnalmanacs/"
 twitter: "#"
 google-plus: "#"
 vimeo: "#"
+
 
 #########################
 ######   Widgets   ######
@@ -101,12 +102,7 @@ about-widget:
   author-name: Stephan
   author-tagline: Blog Author
   author-info: Writes as web desginer current band information.
-  author-social-links:
-    youtube: "#"
-    pinterest: "#"
-    facebook: "#"
-    twitter: "#"
-    google-plus: "#"
+
 
 # Google Map JS api
 key-api: YOUR_GOOGLE_MAP_API_KEY
@@ -303,74 +299,12 @@ blog-description: Get the current news from us.
 team-title: Meet The Band
 team-description: You can contact us also personally.
 
-#
-# Team Members
-#
-team:
-  # Team Member
-  - name: Casper van Beugen
-    tagline: Bass
-    avatar: Studio_6.jpg
 
-    # Social Links
-    youtube: "https://www.youtube.com/channel/UCskLJPKM6gXXK6xtWi5fqtA"
-    pinterest: "#"
-    facebook: "https://de-de.facebook.com/theautumnalmanacs/"
-    twitter: "#"
-    google-plus: "#"
-    vimeo: "#"
 
-  # Team Member
-  - name: Marrick Verhoeven
-    tagline: Drums
-    avatar: Studio_4.jpg
-
-    # Social Links
-    youtube: "#"
-    pinterest: "#"
-    facebook: "#"
-    twitter: "#"
-    google-plus: "#"
-    vimeo: "#"
-
-  # Team Member
-  - name: Ian Maxwell
-    tagline: Vocals
-    avatar: Studio_2.jpg
-
-    # Social Links
-    youtube: "#"
-    pinterest: "#"
-    facebook: "#"
-    twitter: "#"
-    google-plus: "#"
-    vimeo: "#"
-
-  # Team Member
-  - name: Marcus Brandt
-    tagline: Guitars
-    avatar: Studio_3.jpg
-
-    # Social Links
-    youtube: "#"
-    pinterest: "#"
-    facebook: "#"
-    twitter: "#"
-    google-plus: "#"
-    vimeo: "#"
-
-# Team Member
-  - name: Stephan Jacobs 
-    tagline: Keyboards
-    avatar: Studio_7.jpg
-
-    # Social Links
-    youtube: "#"
-    pinterest: "#"
-    facebook: "#"
-    twitter: "#"
-    google-plus: "#"
-    vimeo: "#"
+#####################################
+############  Audio      ############
+#####################################
+audio-title: Audio
 
 #####################################
 ########## Pricing Tables ###########
@@ -412,7 +346,7 @@ plan-ultimate-url: "#"
 ############   Contact   ############
 #####################################
 contact-title: Contact Us
-contact-description: If you want to contact us for a gig or for questions or anything else use the following fields or contact us directly via social media
+contact-description: If you want to contact us for questions or anything else use the following fields or contact us directly via social media
 
 #####################################
 #############   Footer   ############
