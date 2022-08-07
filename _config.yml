@@ -43,13 +43,13 @@ jekyll-archives:
 #######################################################
 
 # This is your site title
-title: The Autumn Almanacs - Classic Rock
+title: The Autumn Almanacs
 # Website language
 lang: en-US
 # Header Title
-header-title: Create the <strong>Impossible</strong>
+header-title: <strong>Out now</strong>
 # Header Tagline
-headter-tagline: We Always
+headter-tagline: 
 
 ####################################
 ######   CTA Header Buttons   ######
@@ -129,7 +129,7 @@ mailchimp:
 #############   About   #############
 #####################################
 about-title: About
-about-description: The Autumn Almanacs are a late sixties inspired band, formed in 2016 and with members from Germany and Holland. The lead singer, Ian Maxwell is frontman by KEEGAN, the other members being Casper van Beugen ( bass and song writing ), Marcus Brand ( guitar ), Marrick Verhoeven ( drums ) and Stephan Jacobs ( keyboards ). The band's debut album was released in 2018 and included 6 songs, one of those being the title track, a mini rock opera called 'All Work And No Play Makes Jack A Dull Boy'. Despite Corona The Autumn Almanacs have returned and will be releasing their second album, 'As Far As The Eye Can See', in late 2022. Eleven songs that are short and catchy and that convey the best of late sixties rock music. Think The Who or The Kinks. Songs with memorable choruses and arrangements. Songs that won't leave your head for all the right reasons. The Autumn Almanacs ... sixties, psychedelic, catchy, flower power.
+about-description: The Autumn Almanacs are a late sixties inspired band, formed in 2016 and with members from Germany and Holland. The lead singer, Ian Maxwell is frontman by KEEGAN, the other members being Casper van Beugen (bass and song writing), Marcus Brand (guitar), Marrick Verhoeven (drums) and Stephan Jacobs (keyboards). The band's debut album was released in 2018 and included 6 songs, one of those being the title track, a mini rock opera called 'All Work And No Play Makes Jack A Dull Boy'. Despite Corona The Autumn Almanacs have returned and released their second album, 'As Far As The Eye Can See', in August 2022. Eleven songs that are short and catchy and that convey the best of late sixties rock music. Think The Who or The Kinks. Songs with memorable choruses and arrangements. Songs that won't leave your head for all the right reasons. The Autumn Almanacs ... sixties, psychedelic, catchy, flower power.
 #####################################
 #############  Features  ############
 #####################################
@@ -310,7 +310,7 @@ audio-title: Audio
 ########## Pricing Tables ###########
 #####################################
 pricing-title: Pricing Table
-pricing-description: Buy our LPs and check our songs on Spotify, iTunes, YouTube or Deezer
+pricing-description: Buy our LPs (Shipping Costs for EU included) and check our songs on Spotify, iTunes, Apple Music, Youtube, Deezer, etc.
 
 #
 # Plan Personal
