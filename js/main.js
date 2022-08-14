@@ -184,6 +184,18 @@
 
     });
 
+        /**
+     *  Testimonials Carousel Setup
+     **/
+         $("#testimonials-carousel2").owlCarousel({
+
+          navigation: true, // Show next & prev buttons
+          slideSpeed: 300,
+          paginationSpeed: 400,
+          singleItem: true
+    
+        });
+
     /**
      *  Smooth Scrolling for Links
      **/
@@ -347,5 +359,47 @@ Amplitude.init({
 			"url": "../audio/Apocalypse.mp3",
 			"cover_art_url": "../images/portfolio/A.jpg"
 		},
+    {
+			"name": "01 Getting Closer",
+			"artist": "The Autumn Almanacs",
+			"album": "All Work And No Play Makes Jack A Dull Boy",
+			"url": "../audio/Getting Closer.mp3",
+			"cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
+		},
+    {
+			"name": "02 The Witches From The Wood",
+			"artist": "The Autumn Almanacs",
+			"album": "All Work And No Play Makes Jack A Dull Boy",
+			"url": "../audio/Witches.mp3",
+			"cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
+		},
+    {
+			"name": "03 No Way",
+			"artist": "The Autumn Almanacs",
+			"album": "All Work And No Play Makes Jack A Dull Boy",
+			"url": "../audio/Way.mp3",
+			"cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
+		},
+    {
+			"name": "04 Weekend",
+			"artist": "The Autumn Almanacs",
+			"album": "All Work And No Play Makes Jack A Dull Boy",
+			"url": "../audio/Weekend.mp3",
+			"cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
+		},
+    {
+			"name": "05 Golden Girl",
+			"artist": "The Autumn Almanacs",
+			"album": "All Work And No Play Makes Jack A Dull Boy",
+			"url": "../audio/Girl.mp3",
+			"cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
+		},
+    {
+			"name": "06 All Work And No Play Makes Jack A Dull Boy",
+			"artist": "The Autumn Almanacs",
+			"album": "All Work And No Play Makes Jack A Dull Boy",
+			"url": "../audio/Getting Closer.mp3",
+			"cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
+		}
 	]
 });

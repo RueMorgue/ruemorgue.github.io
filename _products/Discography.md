@@ -1,7 +1,7 @@
 ---
 identifier: Both LPs
 name: Discography (2 LPs)
-price: 36.90
+price: 36.95
 image: /images/Discography.jpg
 slug: AsFarAsTheEyeCanSeeAllWorkNoPlay
 sku: ART3
