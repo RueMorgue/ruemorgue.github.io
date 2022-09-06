@@ -57,11 +57,20 @@ header.site-header {
     // Logo
     .logo {
       img {
-        display: block;
+        display: none;
         float: left;
       }
     }
+    @media screen and (max-width: 600px) {
 
+    // Logo
+    .logo {
+      img {
+        display: block;
+        float: left;
+      }
+     }
+    }
     // Navigation Bar
     .navigation-bar {
 

@@ -276,130 +276,131 @@ for( var i = 0; i < songElements.length; i++ ){
 	Initializes AmplitudeJS
 */
 Amplitude.init({
-	continue_next: false,
+	continue_next: true,
 	callbacks: {
 		song_change: function(){
 		}
 	},
+  "default_album_art": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg",
 	"songs": [
 		{
 			"name": "01 Summer Of Love",
 			"artist": "The Autumn Almanacs",
 			"album": "As far as the eye can see",
 			"url": "../audio/Summer Of Love.mp3",
-			"cover_art_url": "../images/portfolio/A.jpg"
+			"cover_art_url": "../images/portfolio/A.jpg",
 		},
 		{
 			"name": "02 Deep End",
 			"artist": "The Autumn Almanacs",
 			"album": "As far as the eye can see",
 			"url": "../audio/Deep End.mp3",
-			"cover_art_url": "../images/portfolio/A.jpg"
+			"cover_art_url": "../images/portfolio/A.jpg",
 		},
 		{
 			"name": "03 Horror Movie",
 			"artist": "The Autumn Almanacs",
 			"album": "As far as the eye can see",
 			"url": "../audio/Horror Movie.mp3",
-			"cover_art_url": "../images/portfolio/A.jpg"
+			"cover_art_url": "../images/portfolio/A.jpg",
 		},
 		{
 			"name": "04 The Market",
 			"artist": "The Autumn Almanacs",
 			"album": "As far as the eye can see",
 			"url": "../audio/The Market.mp3",
-			"cover_art_url": "../images/portfolio/A.jpg"
+			"cover_art_url": "../images/portfolio/A.jpg",
 		},
 		{
 			"name": "05 The Zodiac",
 			"artist": "The Autumn Almanacs",
 			"album": "As far as the eye can see",
 			"url": "../audio/The Zodiac.mp3",
-			"cover_art_url": "../images/portfolio/A.jpg"
+			"cover_art_url": "../images/portfolio/A.jpg",
 		},
 		{
 			"name": "06 The Fall",
 			"artist": "The Autumn Almanacs",
 			"album": "As far as the eye can see",
 			"url": "../audio/The Fall.mp3",
-			"cover_art_url": "../images/portfolio/A.jpg"
+			"cover_art_url": "../images/portfolio/A.jpg",
 		},
 		{
 			"name": "07 Alice Should Go",
 			"artist": "The Autumn Almanacs",
 			"album": "As far as the eye can see",
 			"url": "../audio/Alice Should Go.mp3",
-			"cover_art_url": "../images/portfolio/A.jpg"
+			"cover_art_url": "../images/portfolio/A.jpg",
 		},
 		{
 			"name": "08 Flowers In Our Hair",
 			"artist": "The Autumn Almanacs",
 			"album": "As far as the eye can see",
 			"url": "../audio/Flowers In Your Hair -mp3-new.mp3",
-			"cover_art_url": "../images/portfolio/A.jpg"
+			"cover_art_url": "../images/portfolio/A.jpg",
 		},
 		{
 			"name": "09 Belfast Boy",
 			"artist": "The Autumn Almanacs",
 			"album": "As far as the eye can see",
 			"url": "../audio/Belfast Boy.mp3",
-			"cover_art_url": "../images/portfolio/A.jpg"
+			"cover_art_url": "../images/portfolio/A.jpg",
 		},
 		{
 			"name": "10 Harry Bay",
       "artist": "The Autumn Almanacs",
 			"album": "As far as the eye can see",
 			"url": "../audio/Harry Bay.mp3",
-			"cover_art_url": "../images/portfolio/A.jpg"
+			"cover_art_url": "../images/portfolio/A.jpg",
 		},
 		{
 			"name": "11 Apocalypse",
 			"artist": "The Autumn Almanacs",
 			"album": "As far as the eye can see",
 			"url": "../audio/Apocalypse.mp3",
-			"cover_art_url": "../images/portfolio/A.jpg"
+			"cover_art_url": "../images/portfolio/A.jpg",
 		},
     {
 			"name": "01 Getting Closer",
 			"artist": "The Autumn Almanacs",
 			"album": "All Work And No Play Makes Jack A Dull Boy",
 			"url": "../audio/Getting Closer.mp3",
-			"cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
+      "cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
 		},
     {
 			"name": "02 The Witches From The Wood",
 			"artist": "The Autumn Almanacs",
 			"album": "All Work And No Play Makes Jack A Dull Boy",
 			"url": "../audio/Witches.mp3",
-			"cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
+      "cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
 		},
     {
 			"name": "03 No Way",
 			"artist": "The Autumn Almanacs",
 			"album": "All Work And No Play Makes Jack A Dull Boy",
 			"url": "../audio/Way.mp3",
-			"cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
+      "cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
 		},
     {
 			"name": "04 Weekend",
 			"artist": "The Autumn Almanacs",
 			"album": "All Work And No Play Makes Jack A Dull Boy",
 			"url": "../audio/Weekend.mp3",
-			"cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
+      "cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
 		},
     {
 			"name": "05 Golden Girl",
 			"artist": "The Autumn Almanacs",
 			"album": "All Work And No Play Makes Jack A Dull Boy",
 			"url": "../audio/Girl.mp3",
-			"cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
+      "cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
 		},
     {
 			"name": "06 All Work And No Play Makes Jack A Dull Boy",
 			"artist": "The Autumn Almanacs",
 			"album": "All Work And No Play Makes Jack A Dull Boy",
 			"url": "../audio/Getting Closer.mp3",
-			"cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
+      "cover_art_url": "../images/AllWorkAndNoPlayMakesJackADullBoy.jpg"
 		}
 	]
 });
